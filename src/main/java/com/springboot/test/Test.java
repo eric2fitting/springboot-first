@@ -33,7 +33,7 @@ public class Test {
     public ModelAndView index(){
    
         ModelAndView modelAndView = new ModelAndView("index");
-        modelAndView.addObject("name", "eric");
+        modelAndView.addObject("name", "Eric");
         return modelAndView;
     }
     
